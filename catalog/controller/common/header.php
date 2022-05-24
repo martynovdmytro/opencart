@@ -53,12 +53,15 @@ class ControllerCommonHeader extends Controller {
 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-        $exchange = json_decode(curl_exec($ch));
-
-        foreach ($exchange as $item) {
+        foreach (json_decode(curl_exec($ch)) as $item) {
             $exchange = $item;
-
         }
+
+        $rate = round($exchange->rate, 2);
+        $cc = $exchange->cc;
+        $data['cc'] = $cc;
+        $data['rate'] = $rate;
+
 
         // Wishlist
 		if ($this->customer->isLogged()) {
