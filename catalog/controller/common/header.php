@@ -62,6 +62,8 @@ class ControllerCommonHeader extends Controller {
         $data['cc'] = $cc;
         $data['rate'] = $rate;
 
+        curl_close($url);
+
 
         // Wishlist
 		if ($this->customer->isLogged()) {
