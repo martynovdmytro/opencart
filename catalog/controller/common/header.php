@@ -53,18 +53,21 @@ class ControllerCommonHeader extends Controller {
             if (file_exists($root . '/' . $this->session->data['currency'] . '.' . 'txt')) {
                 $exchange = unserialize(file_get_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt'));
                 if (!empty($exchange)) {
-                    if (isset($exchange['timestamp'])) {
-                        $overtime = $exchange['timestamp'] + 60 * 60 * 4;
-                        if ($overtime < time()) {
-                            $this->setCurrencyCache($root);
-                        }
+                    $overtime = $exchange['timestamp'] + 60 * 60 * 4;
+                    if ($overtime < time()) {
+                        $this->setCurrencyCache($root);
                     }
-                    if (isset($exchange['currency'])) {
+                    if (!empty($exchange['currency'])) {
                         $data['exchange'] = (array)$exchange['currency'];
-                        $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
+                        if (isset($data['exchange']['rate'])) {
+                            $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
+                        } else {
+                            $data['exchange']['rate'] = null;
+                        }
                     } else {
                         $this->setCurrencyCache($root);
                     }
+
                 } else {
                     $this->setCurrencyCache($root);
                 }
@@ -118,7 +121,8 @@ class ControllerCommonHeader extends Controller {
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $api = json_decode(curl_exec($ch));
-        if (!empty($api)) {
+
+        if (isset($api['25']) && isset($api['32']) && isset($api['15'])) {
             $usd = array('currency' => $api['25'], 'timestamp' => $timestamp);
             $eur = array('currency' => $api['32'], 'timestamp' => $timestamp);
             $mdl = array('currency' => $api['15'], 'timestamp' => $timestamp);
@@ -134,7 +138,8 @@ class ControllerCommonHeader extends Controller {
                     file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($mdl));
                     break;
             }
-            header("Location: /index.php");
+
+            header("Location: $_SERVER[REQUEST_URI]");
         } else {
             file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', null);
         }
