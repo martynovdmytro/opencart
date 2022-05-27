@@ -50,21 +50,23 @@ class ControllerCommonHeader extends Controller {
 
         if ($this->session->data['currency'] != 'UAH') {
 
-            if (!file_exists($root . '/' . $this->session->data['currency'] . '.' . 'txt')) {
+            if (file_exists($root . '/' . $this->session->data['currency'] . '.' . 'txt')) {
+                $exchange = unserialize(file_get_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt'));
+                if (!empty($exchange)) {
+                    $overtime = $exchange['timestamp'] + 60 * 60 * 4;
+                    if ($overtime < time()) {
+                        $this->setCurrencyCache($root);
+                        header("Location: /index.php");
+                    }
+                    $data['exchange'] = (array)$exchange['currency'];
+                    $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
+                }
+            } else {
                 $this->setCurrencyCache($root);
+                header("Location: /index.php");
+
             }
-
-            $exchange = unserialize(file_get_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt'));
-
-            if (!empty($exchange)) {
-                $data['exchange'] = (array)$exchange['currency'];
-                $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
-            }
-
         }
-
-
-
 
         // Wishlist
 		if ($this->customer->isLogged()) {
@@ -107,27 +109,27 @@ class ControllerCommonHeader extends Controller {
     {
         $url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json';
         $timestamp = time();
-        $ch = curl_init($url);
 
+        $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $api = json_decode(curl_exec($ch));
+        if (!empty($api)) {
+            $usd = array('currency' => $api['25'], 'timestamp' => $timestamp);
+            $eur = array('currency' => $api['32'], 'timestamp' => $timestamp);
+            $mdl = array('currency' => $api['15'], 'timestamp' => $timestamp);
 
-        $usd = array('currency' => $api['25'], 'timestamp' => $timestamp);
-        $eur = array('currency' => $api['32'], 'timestamp' => $timestamp);
-        $mdl = array('currency' => $api['15'], 'timestamp' => $timestamp);
-
-        curl_close($ch);
-
-        switch ($this->session->data['currency']) {
-            case $this->session->data['currency'] == 'USD':
-                file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($usd));
-                break;
-            case $this->session->data['currency'] == 'EUR':
-                file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($eur));
-                break;
-            case $this->session->data['currency'] == 'MDL':
-                file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($mdl));
-                break;
+            switch ($this->session->data['currency']) {
+                case $this->session->data['currency'] == 'USD':
+                    file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($usd));
+                    break;
+                case $this->session->data['currency'] == 'EUR':
+                    file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($eur));
+                    break;
+                case $this->session->data['currency'] == 'MDL':
+                    file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($mdl));
+                    break;
+            }
         }
+        curl_close($ch);
     }
 }
