@@ -53,18 +53,23 @@ class ControllerCommonHeader extends Controller {
             if (file_exists($root . '/' . $this->session->data['currency'] . '.' . 'txt')) {
                 $exchange = unserialize(file_get_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt'));
                 if (!empty($exchange)) {
-                    $overtime = $exchange['timestamp'] + 60 * 60 * 4;
-                    if ($overtime < time()) {
-                        $this->setCurrencyCache($root);
-                        header("Location: /index.php");
+                    if (isset($exchange['timestamp'])) {
+                        $overtime = $exchange['timestamp'] + 60 * 60 * 4;
+                        if ($overtime < time()) {
+                            $this->setCurrencyCache($root);
+                        }
                     }
-                    $data['exchange'] = (array)$exchange['currency'];
-                    $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
+                    if (isset($exchange['currency'])) {
+                        $data['exchange'] = (array)$exchange['currency'];
+                        $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
+                    } else {
+                        $this->setCurrencyCache($root);
+                    }
+                } else {
+                    $this->setCurrencyCache($root);
                 }
             } else {
                 $this->setCurrencyCache($root);
-                header("Location: /index.php");
-
             }
         }
 
@@ -129,6 +134,9 @@ class ControllerCommonHeader extends Controller {
                     file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($mdl));
                     break;
             }
+            header("Location: /index.php");
+        } else {
+            file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', null);
         }
         curl_close($ch);
     }
