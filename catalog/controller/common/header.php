@@ -46,34 +46,23 @@ class ControllerCommonHeader extends Controller {
 		$this->load->language('common/header');
 
         // Currency exchange
+        $root = $_SERVER['DOCUMENT_ROOT'] . '/storage/cache/'; // currency cache file
+
         if ($this->session->data['currency'] != 'UAH') {
-            $url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json';
 
-            $ch = curl_init($url);
-
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-            $exchange = json_decode(curl_exec($ch));
-
-            if (is_array($exchange)) {
-                switch ($this->session->data['currency']) {
-                    case $this->session->data['currency'] == 'USD':
-                        $data['exchange'] = $exchange['25'];
-                        break;
-                    case $this->session->data['currency'] == 'EUR':
-                        $data['exchange'] = $exchange['32'];
-                        break;
-                    case $this->session->data['currency'] == 'MDL':
-                        $data['exchange'] = $exchange['15'];
-                        break;
-                    default:
-                        # code...
-                        break;
-                }
-
+            if (!file_exists($root . '/' . $this->session->data['currency'] . '.' . 'txt')) {
+                $this->setCurrencyCache($root);
             }
-            curl_close($ch);
+
+            $exchange = unserialize(file_get_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt'));
+
+            if (!empty($exchange)) {
+                $data['exchange'] = (array)$exchange['currency'];
+                $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
+            }
+
         }
+
 
 
 
@@ -109,5 +98,36 @@ class ControllerCommonHeader extends Controller {
 		$data['menu'] = $this->load->controller('common/menu');
 
 		return $this->load->view('common/header', $data);
+
+
+
 	}
+
+    public function setCurrencyCache($root)
+    {
+        $url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json';
+        $timestamp = time();
+        $ch = curl_init($url);
+
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $api = json_decode(curl_exec($ch));
+
+        $usd = array('currency' => $api['25'], 'timestamp' => $timestamp);
+        $eur = array('currency' => $api['32'], 'timestamp' => $timestamp);
+        $mdl = array('currency' => $api['15'], 'timestamp' => $timestamp);
+
+        curl_close($ch);
+
+        switch ($this->session->data['currency']) {
+            case $this->session->data['currency'] == 'USD':
+                file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($usd));
+                break;
+            case $this->session->data['currency'] == 'EUR':
+                file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($eur));
+                break;
+            case $this->session->data['currency'] == 'MDL':
+                file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', serialize($mdl));
+                break;
+        }
+    }
 }

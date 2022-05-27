@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dec8935-c926-4b63-b651-59936265e9a8" name="Changes" comment="">
+    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +13,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,13 +24,22 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpDebugGeneral" ignore_connections_through_unregistered_servers="true" listening_started="true" show_user_defined_constants="false" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" zd_debug_port="10255" />
   <component name="PhpServers">
     <servers>
-      <server host="opencart.local" id="8b69b552-416f-4dcb-8e7b-9e721e0f15fd" name="opencart.local" />
+      <server host="opencart.local" id="87535c90-7068-4f21-9d8d-5a1e3bc0bd11" name="opencart.local" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/Users/froze/dev/opencart.local" />
+        </path_mappings>
+      </server>
     </servers>
   </component>
-  <component name="ProjectId" id="2AR26SfNUkfxUU7epk3apo5JdBh" />
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="127.0.0.1" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="29OSdD5qY5gDKA5f32tqQxH1ag2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,28 +49,77 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/froze/dev/opencart.local&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/froze/dev/opencart.local/admin/view/template/extension/dashboard&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php.debug&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/view/template/extension/dashboard" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="PHPUnitRunConfigurationType" />
+        <option value="PhpBuiltInWebServerConfigurationType" />
+        <option value="PhpWebAppRunConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7dec8935-c926-4b63-b651-59936265e9a8" name="Changes" comment="" />
-      <created>1654957902168</created>
+      <changelist id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="" />
+      <created>1652982726214</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654957902168</updated>
-      <workItem from="1654957903476" duration="25000" />
-      <workItem from="1654961214772" duration="67000" />
-      <workItem from="1654966923620" duration="2600000" />
-      <workItem from="1655006222223" duration="1498000" />
+      <updated>1652982726214</updated>
+      <workItem from="1652982728630" duration="1805000" />
+      <workItem from="1653015344005" duration="130000" />
+      <workItem from="1653015499800" duration="3153000" />
+      <workItem from="1653019526669" duration="15172000" />
+      <workItem from="1653101426420" duration="891000" />
+      <workItem from="1653102323247" duration="3334000" />
+      <workItem from="1653106881850" duration="322000" />
+      <workItem from="1653107229470" duration="23278000" />
+      <workItem from="1653189033729" duration="849000" />
+      <workItem from="1653228309554" duration="1923000" />
+      <workItem from="1653230615734" duration="540000" />
+      <workItem from="1653235452056" duration="266000" />
+      <workItem from="1653372811181" duration="7845000" />
+      <workItem from="1653395990319" duration="725000" />
+      <workItem from="1653397329677" duration="12296000" />
+      <workItem from="1653450171607" duration="9000" />
+      <workItem from="1653473134129" duration="435000" />
+      <workItem from="1653476028826" duration="1404000" />
+      <workItem from="1653477660153" duration="8551000" />
+      <workItem from="1653501830212" duration="1333000" />
+      <workItem from="1653534395374" duration="9996000" />
+      <workItem from="1653555468646" duration="20717000" />
+      <workItem from="1653619740175" duration="1757000" />
+      <workItem from="1653622747038" duration="8363000" />
     </task>
+    <task id="LOCAL-00001" summary="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page">
+      <created>1653228527261</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228527261</updated>
+    </task>
+    <task id="LOCAL-00002" summary="In 33 line has been added new div container for attributes from featured.php controller">
+      <created>1653228828678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228828678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +135,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page" />
+    <MESSAGE value="In 33 line has been added new div container for attributes from featured.php controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="In 33 line has been added new div container for attributes from featured.php controller" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
