@@ -140,9 +140,11 @@ class ControllerCommonHeader extends Controller {
             }
 
             header("Location: $_SERVER[REQUEST_URI]");
+
         } else {
             file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', null);
         }
+
         curl_close($ch);
     }
 }
