@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cache/EUR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cache/MDL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cache/USD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/EUR.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/EUR.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/MDL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/MDL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/USD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/USD.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/froze/dev/opencart.local/admin/view/template/extension/dashboard&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/froze/dev/opencart.local/catalog/view/theme/default/template/extension/module",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module" />
       <recent name="$PROJECT_DIR$/admin/view/template/extension/dashboard" />
     </key>
   </component>
@@ -106,7 +106,9 @@
       <workItem from="1653534395374" duration="9996000" />
       <workItem from="1653555468646" duration="20717000" />
       <workItem from="1653619740175" duration="1757000" />
-      <workItem from="1653622747038" duration="29678000" />
+      <workItem from="1653622747038" duration="29946000" />
+      <workItem from="1653755345014" duration="785000" />
+      <workItem from="1653793487422" duration="884000" />
     </task>
     <task id="LOCAL-00001" summary="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page">
       <created>1653228527261</created>
