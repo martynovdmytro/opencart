@@ -34,7 +34,7 @@ class ControllerExtensionModuleCategoryGrid extends Controller{
                         'category_id' => $category_info['category_id'],
                         'thumb'       => $image,
                         'name'        => $category_info['name'],
-                        'href'        => $this->url->link('product/product', 'category_id=' . $category_info['category_id'])
+                        'href'        => $this->url->link('product/category', 'path=' . $category_info['category_id'])
                     );
 
                 }
@@ -43,7 +43,9 @@ class ControllerExtensionModuleCategoryGrid extends Controller{
 
         }
 
-        return $this->load->view('extension/module/category_grid');
+        if ($data['categories']) {
+            return $this->load->view('extension/module/category_grid', $data);
+        }
 
     }
 }

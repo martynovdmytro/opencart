@@ -1,2 +1,18 @@
 <h3>{{ heading_title }}</h3>
+<div class="row">
+    {% for category in categories %}
+  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <div class="product-thumb transition">
+          <div class="image">
+              <a href="{{ category.href }}">
+                  <h4>{{ category.name }}</h4>
+                  <img src="{{ category.thumb }}" alt="{{ category.name }}" title="{{ category.name }}" class="img-responsive" />
+              </a>
+          </div>
+      </div>
+
+  </div>
+    {% endfor %}
+</div>
+
 

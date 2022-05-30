@@ -487,7 +487,7 @@ class TranslatorTest extends \PHPUnit_Framework_TestCase
 
     public function testTransChoiceFallback()
     {
-        $translator = new Translator('ru');
+        $translator = new Translator('ru-ru');
         $translator->setFallbackLocales(array('en'));
         $translator->addLoader('array', new ArrayLoader());
         $translator->addResource('array', array('some_message2' => 'one thing|%count% things'), 'en');
@@ -497,7 +497,7 @@ class TranslatorTest extends \PHPUnit_Framework_TestCase
 
     public function testTransChoiceFallbackBis()
     {
-        $translator = new Translator('ru');
+        $translator = new Translator('ru-ru');
         $translator->setFallbackLocales(array('en_US', 'en'));
         $translator->addLoader('array', new ArrayLoader());
         $translator->addResource('array', array('some_message2' => 'one thing|%count% things'), 'en_US');
@@ -507,7 +507,7 @@ class TranslatorTest extends \PHPUnit_Framework_TestCase
 
     public function testTransChoiceFallbackWithNoTranslation()
     {
-        $translator = new Translator('ru');
+        $translator = new Translator('ru-ru');
         $translator->setFallbackLocales(array('en'));
         $translator->addLoader('array', new ArrayLoader());
 

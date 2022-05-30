@@ -6,9 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/language/en-gb/en-gb.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/en-gb/en-gb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/locales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/moment-with-locales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ru-RU.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ru-RU.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/category_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/category_grid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/featured.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/featured.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/language/en-gb/en-gb.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/en-gb/en-gb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/locales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/moment-with-locales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/MDL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/MDL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/vendor/symfony/translation/PluralizationRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/vendor/symfony/translation/PluralizationRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/vendor/symfony/translation/Tests/TranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/vendor/symfony/translation/Tests/TranslatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/config/googleshopping/googleshopping.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/googleshopping/googleshopping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/PluralizationRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/PluralizationRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/Tests/TranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/Tests/TranslatorTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +67,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/froze/dev/opencart.local/catalog/view/theme/default/template/extension/module",
+    "last_opened_file_path": "/Users/froze/dev/opencart.local/admin/language/ru-ru/catalog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,11 +79,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/language/ru-ru/catalog" />
+      <recent name="$PROJECT_DIR$/catalog/language/ru-ru/extension/module" />
       <recent name="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module" />
       <recent name="$PROJECT_DIR$/admin/view/template/extension/module" />
       <recent name="$PROJECT_DIR$/catalog/language/en-gb/extension/module" />
-      <recent name="$PROJECT_DIR$/admin/language/en-gb/extension/module" />
-      <recent name="$PROJECT_DIR$/admin/controller/extension/module" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -114,7 +130,7 @@
       <workItem from="1653755345014" duration="785000" />
       <workItem from="1653793487422" duration="25270000" />
       <workItem from="1653838642662" duration="3593000" />
-      <workItem from="1653877463737" duration="14049000" />
+      <workItem from="1653877463737" duration="25767000" />
     </task>
     <task id="LOCAL-00001" summary="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page">
       <created>1653228527261</created>
