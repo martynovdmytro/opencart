@@ -6,25 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/en-gb/en-gb.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/en-gb/en-gb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/datetimepicker/moment/tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ru-RU.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ru-RU.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/category_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/category_grid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/en-gb/en-gb.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/en-gb/en-gb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/datetimepicker/moment/tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/EUR.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/EUR.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/cache/MDL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/MDL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/vendor/symfony/translation/PluralizationRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/vendor/symfony/translation/PluralizationRules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/vendor/symfony/translation/Tests/TranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/vendor/symfony/translation/Tests/TranslatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/config/googleshopping/googleshopping.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/googleshopping/googleshopping.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/PluralizationRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/PluralizationRules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/Tests/TranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/vendor/symfony/translation/Tests/TranslatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/USD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/USD.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/froze/dev/opencart.local/admin/language/ru-ru/catalog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/froze/dev/opencart.local/admin/language/ru-ru/catalog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/admin/language/ru-ru/catalog" />
@@ -130,7 +115,8 @@
       <workItem from="1653755345014" duration="785000" />
       <workItem from="1653793487422" duration="25270000" />
       <workItem from="1653838642662" duration="3593000" />
-      <workItem from="1653877463737" duration="25767000" />
+      <workItem from="1653877463737" duration="26113000" />
+      <workItem from="1653970746757" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page">
       <created>1653228527261</created>
