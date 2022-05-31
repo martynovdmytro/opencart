@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller" />
+    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/EUR.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/EUR.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +109,8 @@
       <workItem from="1653622747038" duration="29946000" />
       <workItem from="1653755345014" duration="785000" />
       <workItem from="1653793487422" duration="884000" />
+      <workItem from="1653980744591" duration="1535000" />
+      <workItem from="1653986005746" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page">
       <created>1653228527261</created>

@@ -121,6 +121,7 @@ class ControllerCommonHeader extends Controller {
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $api = json_decode(curl_exec($ch));
+        curl_close($ch);
 
         if (isset($api['25']) && isset($api['32']) && isset($api['15'])) {
             $usd = array('currency' => $api['25'], 'timestamp' => $timestamp);
@@ -144,7 +145,5 @@ class ControllerCommonHeader extends Controller {
         } else {
             file_put_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt', null);
         }
-
-        curl_close($ch);
     }
 }

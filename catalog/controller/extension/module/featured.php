@@ -3,6 +3,8 @@ class ControllerExtensionModuleFeatured extends Controller {
 	public function index($setting) {
 		$this->load->language('extension/module/featured');
 
+        $this->load->language('catalog/product');
+
 		$this->load->model('catalog/product');
 
 		$this->load->model('tool/image');
@@ -27,7 +29,7 @@ class ControllerExtensionModuleFeatured extends Controller {
 					}
 
 					if ($this->customer->isLogged() || !$this->config->get('config_customer_price')) {
-						$price = $this->currency->format($this->tax->calculate($product_info['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+                        $price = $this->currency->format($this->tax->calculate($product_info['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
 					} else {
 						$price = false;
 					}
@@ -56,7 +58,7 @@ class ControllerExtensionModuleFeatured extends Controller {
 						'product_id'  => $product_info['product_id'],
 						'thumb'       => $image,
 						'name'        => $product_info['name'],
-						'description' => utf8_substr(strip_tags(html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('theme_' . $this->config->get('config_theme') . '_product_description_length')) . '..',
+                        'attributes'  => $this->model_catalog_product->getProductAttributes($product_info['product_id']),
 						'price'       => $price,
 						'special'     => $special,
 						'tax'         => $tax,
