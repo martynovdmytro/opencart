@@ -1,1 +1,1 @@
-a:2:{s:8:"currency";O:8:"stdClass":5:{s:4:"r030";i:978;s:3:"txt";s:8:"Євро";s:4:"rate";d:31.2808;s:2:"cc";s:3:"EUR";s:12:"exchangedate";s:10:"03.06.2022";}s:9:"timestamp";i:1654177812;}
+a:2:{s:8:"currency";O:8:"stdClass":5:{s:4:"r030";i:978;s:3:"txt";s:8:"Євро";s:4:"rate";d:31.5031;s:2:"cc";s:3:"EUR";s:12:"exchangedate";s:10:"31.05.2022";}s:9:"timestamp";i:1653988181;}
