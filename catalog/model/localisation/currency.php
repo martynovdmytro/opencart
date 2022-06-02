@@ -33,4 +33,9 @@ class ModelLocalisationCurrency extends Model {
 
 		return $currency_data;
 	}
+
+    public function refreshValue($value, $currency){
+        $this->db->query("UPDATE " . DB_PREFIX . "currency SET value = '" . $value . "' WHERE code = '" . $currency . "'");
+
+    }
 }

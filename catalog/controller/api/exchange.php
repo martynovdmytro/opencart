@@ -1,6 +1,8 @@
 <?php
 class ControllerApiExchange extends Controller {
     public function index(){
+        $this->load->model('localisation/currency');
+
         $root = $_SERVER['DOCUMENT_ROOT'] . '/storage/cache/'; // currency cache file
 
         if ($this->session->data['currency'] != 'UAH') {
@@ -16,6 +18,7 @@ class ControllerApiExchange extends Controller {
                         $data['exchange'] = (array)$exchange['currency'];
                         if (isset($data['exchange']['rate'])) {
                             $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
+                            $this->model_localisation_currency->refreshValue( $data['exchange']['rate'], $this->session->data['currency']);
                         } else {
                             $data['exchange']['rate'] = null;
                         }
