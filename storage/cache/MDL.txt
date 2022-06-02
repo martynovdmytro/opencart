@@ -1,1 +1,1 @@
-a:2:{s:8:"currency";O:8:"stdClass":5:{s:4:"r030";i:498;s:3:"txt";s:29:"Молдовський лей";s:4:"rate";d:1.5339;s:2:"cc";s:3:"MDL";s:12:"exchangedate";s:10:"30.05.2022";}s:9:"timestamp";i:1653750356;}
+a:2:{s:8:"currency";O:8:"stdClass":5:{s:4:"r030";i:498;s:3:"txt";s:29:"Молдовський лей";s:4:"rate";d:1.5373;s:2:"cc";s:3:"MDL";s:12:"exchangedate";s:10:"03.06.2022";}s:9:"timestamp";i:1654177852;}
