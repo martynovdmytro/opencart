@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/model/localisation/currency.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/model/localisation/currency.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/api/exchange.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/api/exchange.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/common/currency.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/currency.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/product/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/localisation/currency.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/localisation/currency.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cache/EUR.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/EUR.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cache/MDL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/MDL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cache/USD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/USD.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/library/cart/currency.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/library/cart/currency.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +109,7 @@
       <workItem from="1653793487422" duration="884000" />
       <workItem from="1653995988742" duration="42000" />
       <workItem from="1653996033484" duration="8192000" />
-      <workItem from="1654051068793" duration="29449000" />
+      <workItem from="1654051068793" duration="31943000" />
     </task>
     <task id="LOCAL-00001" summary="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page">
       <created>1653228527261</created>
