@@ -31,7 +31,7 @@ class Currency {
 			$value = $this->currencies[$currency]['value'];
 		}
 
-		$amount = $value ? (float)$number / $value : (float)$number;
+		$amount = $value ? (float)$number * $value : (float)$number;
 		
 		$amount = round($amount, (int)$decimal_place);
 		

@@ -1,38 +1,46 @@
 <?php
 class ControllerApiExchange extends Controller {
     public function index(){
-        $this->load->model('localisation/currency');
 
         $root = $_SERVER['DOCUMENT_ROOT'] . '/storage/cache/'; // currency cache file
 
         if ($this->session->data['currency'] != 'UAH') {
 
-            if (file_exists($root . '/' . $this->session->data['currency'] . '.' . 'txt')) {
-                $exchange = unserialize(file_get_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt'));
-                if (!empty($exchange)) {
-                    $overtime = $exchange['timestamp'] + 60 * 60 * 4;
-                    if ($overtime < time()) {
-                        $this->setCurrencyCache($root);
-                    }
-                    if (!empty($exchange['currency'])) {
-                        $data['exchange'] = (array)$exchange['currency'];
-                        if (isset($data['exchange']['rate'])) {
-                            $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
-                            $this->model_localisation_currency->refreshValue( $data['exchange']['rate'], $this->session->data['currency']);
-                        } else {
-                            $data['exchange']['rate'] = null;
-                        }
-                    } else {
-                        $this->setCurrencyCache($root);
-                    }
-                } else {
-                    $this->setCurrencyCache($root);
-                }
+            $data['exchange'] = $this->getCurrencyCache($root);
+
+            if ($data['exchange'] != false) {
+                return $data['exchange'];
             } else {
                 $this->setCurrencyCache($root);
             }
         }
-        return $data['exchange'];
+    }
+
+    public function getCurrencyCache($root)
+    {
+        $this->load->model('localisation/currency');
+
+        if (file_exists($root . '/' . $this->session->data['currency'] . '.' . 'txt')) {
+            $exchange = unserialize(file_get_contents($root . '/' . $this->session->data['currency'] . '.' . 'txt'));
+            if (!empty($exchange)) {
+                $data['exchange'] = (array)$exchange['currency'];
+                $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
+                $value = 1 / $data['exchange']['rate'];             // Exchange value
+                $this->model_localisation_currency->refreshValue( $value, $this->session->data['currency']);
+
+                $overtime = $exchange['timestamp'] + 3600 * 4;      // Time to refresh data
+                if ($overtime < time()) {
+                    $this->setCurrencyCache($root);
+                }
+
+                return $data['exchange'];
+
+            } else {
+                return false;
+            }
+        } else {
+            $this->setCurrencyCache($root);
+        }
     }
 
     public function setCurrencyCache($root)

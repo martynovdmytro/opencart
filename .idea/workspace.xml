@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
+    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cache/EUR.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/EUR.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cache/USD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cache/USD.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/api/exchange.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/api/exchange.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/EUR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/MDL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/USD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/library/cart/currency.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/library/cart/currency.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +120,7 @@
       <workItem from="1653995988742" duration="42000" />
       <workItem from="1653996033484" duration="8192000" />
       <workItem from="1654051068793" duration="31943000" />
-      <workItem from="1654329205520" duration="166000" />
+      <workItem from="1654329205520" duration="12459000" />
     </task>
     <task id="LOCAL-00001" summary="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page">
       <created>1653228527261</created>
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653228828678</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="default commit for currency_fix">
+      <created>1654329426171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654329426171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +154,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="currency_fix" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -153,7 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page" />
     <MESSAGE value="In 33 line has been added new div container for attributes from featured.php controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="In 33 line has been added new div container for attributes from featured.php controller" />
+    <MESSAGE value="default commit for currency_fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="default commit for currency_fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
