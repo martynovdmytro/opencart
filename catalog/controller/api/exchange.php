@@ -2,7 +2,7 @@
 class ControllerApiExchange extends Controller {
     public function index(){
 
-        $root = $_SERVER['DOCUMENT_ROOT'] . '/storage/cache/'; // currency cache file
+        $root = $_SERVER['DOCUMENT_ROOT'] . '/system/storage/cache/'; // currency cache file
 
         if ($this->session->data['currency'] != 'UAH') {
 
