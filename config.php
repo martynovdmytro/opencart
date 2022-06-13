@@ -9,7 +9,7 @@ define('HTTPS_SERVER', 'http://opencart.local/');
 define('DIR_APPLICATION', '/Users/froze/dev/opencart.local/catalog/');
 define('DIR_SYSTEM', '/Users/froze/dev/opencart.local/system/');
 define('DIR_IMAGE', '/Users/froze/dev/opencart.local/image/');
-define('DIR_STORAGE', '/Users/froze/dev/storage/');
+define('DIR_STORAGE', '/Users/froze/dev/opencart.local/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
