@@ -25,7 +25,7 @@ class ControllerApiExchange extends Controller {
             if (!empty($exchange)) {
                 $data['exchange'] = (array)$exchange['currency'];
                 $data['exchange']['rate'] = round($data['exchange']['rate'], 2);
-                $value = 1 / $data['exchange']['rate'];             // Exchange value
+                $value = 1 / $data['exchange']['rate'];             // Exchange rate value
                 $this->model_localisation_currency->refreshValue( $value, $this->session->data['currency']);
 
                 $overtime = $exchange['timestamp'] + 3600 * 4;      // Time to refresh data
