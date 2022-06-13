@@ -19,3 +19,15 @@
 2022-06-13 3:35:09 - PHP Warning:  file_put_contents(/Users/froze/dev/opencart.local/storage/cache//EUR.txt): failed to open stream: No such file or directory in /Users/froze/dev/opencart.local/catalog/controller/common/header.php on line 136
 2022-06-13 3:35:10 - PHP Warning:  file_put_contents(/Users/froze/dev/opencart.local/storage/cache//EUR.txt): failed to open stream: No such file or directory in /Users/froze/dev/opencart.local/catalog/controller/common/header.php on line 136
 2022-06-13 3:35:10 - PHP Warning:  file_put_contents(/Users/froze/dev/opencart.local/storage/cache//EUR.txt): failed to open stream: No such file or directory in /Users/froze/dev/opencart.local/catalog/controller/common/header.php on line 136
+2022-06-13 4:52:35 - PHP Warning:  fopen(/Users/froze/dev/opencart.local/storage/cache/cache.catalog.language.1655099555): failed to open stream: No such file or directory in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 49
+2022-06-13 4:52:35 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 51
+2022-06-13 4:52:35 - PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 53
+2022-06-13 4:52:35 - PHP Warning:  fflush() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 55
+2022-06-13 4:52:35 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 57
+2022-06-13 4:52:35 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 59
+2022-06-13 4:52:35 - PHP Warning:  fopen(/Users/froze/dev/opencart.local/storage/cache/cache.currency.1655099555): failed to open stream: No such file or directory in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 49
+2022-06-13 4:52:35 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 51
+2022-06-13 4:52:35 - PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 53
+2022-06-13 4:52:35 - PHP Warning:  fflush() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 55
+2022-06-13 4:52:35 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 57
+2022-06-13 4:52:35 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 59

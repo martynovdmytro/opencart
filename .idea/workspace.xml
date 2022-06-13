@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/api/exchange.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/api/exchange.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/EUR.txt" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/cache/EUR.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
