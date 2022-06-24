@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view/javascript/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/javascript/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/category_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/category_grid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/featured.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/featured.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cache/cache.catalog.language.1655096185" beforeDir="false" />
-    </list>
+    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

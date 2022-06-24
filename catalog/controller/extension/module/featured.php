@@ -70,9 +70,7 @@ class ControllerExtensionModuleFeatured extends Controller {
 						'rating'      => $rating,
 						'href'        => $this->url->link('product/product', 'product_id=' . $product_info['product_id'])
 					);
-
-
-
+                    
                 }
 
             }
