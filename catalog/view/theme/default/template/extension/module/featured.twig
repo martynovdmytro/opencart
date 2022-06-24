@@ -10,7 +10,6 @@
       </div>
       <div class="caption">
         <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
-        <p>{{ product.description }}</p>
         {% if product.rating %}
         <div class="rating">
           {% for i in 5 %}
@@ -33,6 +32,16 @@
           <span class="price-tax">{{ text_tax }} {{ product.tax }}</span>
           {% endif %}
         </p>
+          <hr>
+          {% for attribute in product.attributes %}
+            <div>
+            <ul>
+              <li>
+                <b>{{ attribute.name }}</b> {{ attribute.text }}
+              </li>
+            </ul>
+          </div>
+          {% endfor %}
         {% endif %}
       </div>
       <div class="button-group">

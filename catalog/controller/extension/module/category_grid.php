@@ -13,7 +13,7 @@ class ControllerExtensionModuleCategoryGrid extends Controller{
         $data['categories'] = array();
 
         if (!$setting['limit']) {
-            $setting['limit'] = 4;
+            $setting['limit'] = 8;
         }
 
         if (!empty($setting['category'])) {
