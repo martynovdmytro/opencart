@@ -5,64 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/apple_cinema_30-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/apple_cinema_30-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/canon_eos_5d_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/canon_eos_5d_1-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/canon_eos_5d_1-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/canon_eos_5d_2-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/canon_eos_5d_2-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/canon_logo-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/canon_logo-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/cart-100x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/compaq_presario-182x182.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/compaq_presario-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/compaq_presario-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/hp_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/hp_1-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/hp_1-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/hp_2-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/hp_2-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/hp_3-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/hp_3-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/htc_touch_hd_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/imac_1-200x200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_1-47x47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_1-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_2-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_2-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_3-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_3-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_4-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_4-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_5-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_5-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_6-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/iphone_6-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_1-47x47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_1-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_2-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_2-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_3-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_3-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_4-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_4-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_5-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_5-74x74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_air_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/macbook_pro_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/nikon_d300_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/opencart-logo-100x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/palm_treo_pro_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/samsung_tab_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022,_15_38_[Changes]/sony_vaio_1-228x228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2022__15_38__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view/stylesheet/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/stylesheet/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/1c/1cafa699684ec9b942158cc61a19829066cbc16ac4035f3d9b3a2651f7854ed2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/24/244ddb97d2d24bca8d0d7490d8f4e12d0f658acd5bc9e17bcf1704ac3a7f2eae.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/2e/2e81ef3318ae44d88693cde58fdc425bf65c016628f42cb3083e7c1df48987e5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/41/41b69d4b787814a881963483010bbe548bc789b5a582bf9a492d24cc7b5eee09.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/43/433f9b4da70c08b435bdeacebbe10f7b757d756a5f4df6e369e3f171a34f9ff5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/4b/4bd5896b5db781a90d0719e21125c889718369114fbfa906785cf882ea9458a5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/4c/4c0807178d3ca473530bd65c0529dc65e8377853f74de5f8bd604732215920b0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/52/522f0c9ac4479a3342cbd55b68dccf3e1514e99f2edc086e7ea93faceb5f105a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/58/586fa31ab90facce5fb26ffdf8f478537a873114fd41bfffb434675be899cb23.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/6b/6b844494fb0802785638960edaa617ab67af9cf1dc1ec55cfbc2bf561210f479.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/73/735525a6a61dfd89e29b87abbc5fecead346c9981dd902e32a73b3c6e6312517.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/7a/7a42f3a095fac1062e6cb015507d12cc457027874c92e6c62eb191744001659e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/94/9413c9b25bb261fb9d42e19437aeb12393e778c0e3295544182edc1e499524dc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/95/95ba03f5fd1e07df1de33a695153afee09ba629949b5840150bb80864d59a991.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/97/970c2af85ffc72d9c1ec696338f19651fb89a10b4bef77ce0bbc93129f03093b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/9d/9db7b0c58407d13b64f20dead8272586360a6c14ba73fdedaf0ba2c49ca1970b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/a0/a05b6efa79fcf0cbee3834fee478e0e05de387be2dad55f9469878393c6c664e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/a5/a555486d96e0371859ee717e3a8348c31305459d20c1cfe0b78c696d3481f031.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/b5/b5d7c66536b48c27105d3e9f16cb51ff33ff6aa78533a06ab58fd2a8e8d99013.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/b7/b73fd08f1f083278c14b9c562e20192442c20bee786f26353aba26cf14c5c8f9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/bb/bbc148d31a315d7b1b8843f5b40b36e805f734ee76dad80ab356e2cf7f25b82f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/bd/bd713886167242d4e383f9ca9d03a0b7eba0bba4ae1cd6b3e9addc26e1ad6590.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/c6/c6603804c6465681bbbfb34bdc8dacc32d11ff842fd1447b0cd193f9a875ad5b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/cc/cccb534eb1ea7ab4753706c4744b13564444ba4d071527672803d63d6716bb80.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/d1/d1e9830b3b66d30ea673b001c7c56717b8e87911fe9e15600007128ca8b9da1f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/d5/d56d4bcb64d417eb0771a2cd70c02d2c748e2009e89fad4b0711abe319bac0eb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/ee/ee57f197e12cf46d38f232163996a366bba4edb880a27c01edf130311ac55439.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/f3/f3f6ccdb568c08cd8fc44053fc542e1ce89f2616c804491d3e35d0d2819048cd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/fe/fe9bcebf42074aad8958195b314c6f2adcc04ff5743bd89ca43e353a2e155097.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +148,7 @@
       <workItem from="1655091082525" duration="2414000" />
       <workItem from="1656067173108" duration="266000" />
       <workItem from="1656086275201" duration="7265000" />
-      <workItem from="1656124950415" duration="2819000" />
+      <workItem from="1656124950415" duration="4393000" />
     </task>
     <task id="LOCAL-00001" summary="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page">
       <created>1653228527261</created>
