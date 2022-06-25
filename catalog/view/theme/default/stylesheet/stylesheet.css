@@ -791,14 +791,14 @@ html[dir=rtl] #cart .dropdown-menu {
 
 }
 @media (min-width: 768px) {
-   
+
     html[dir=rtl] .navbar-nav {
         float: right;
         margin: 0;
     }
-    
+
     html[dir=rtl] .navbar-nav > li {
         float: right;
     }
-   
+
 }
