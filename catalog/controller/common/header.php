@@ -45,38 +45,6 @@ class ControllerCommonHeader extends Controller {
 
 		$this->load->language('common/header');
 
-        // Currency exchange
-        if ($this->session->data['currency'] != 'UAH') {
-            $url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json';
-
-            $ch = curl_init($url);
-
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-            $exchange = json_decode(curl_exec($ch));
-
-            if (is_array($exchange)) {
-                switch ($this->session->data['currency']) {
-                    case $this->session->data['currency'] == 'USD':
-                        $data['exchange'] = $exchange['25'];
-                        break;
-                    case $this->session->data['currency'] == 'EUR':
-                        $data['exchange'] = $exchange['32'];
-                        break;
-                    case $this->session->data['currency'] == 'MDL':
-                        $data['exchange'] = $exchange['15'];
-                        break;
-                    default:
-                        # code...
-                        break;
-                }
-
-            }
-            curl_close($ch);
-        }
-
-
-
         // Wishlist
 		if ($this->customer->isLogged()) {
 			$this->load->model('account/wishlist');
@@ -107,7 +75,9 @@ class ControllerCommonHeader extends Controller {
 		$data['search'] = $this->load->controller('common/search');
 		$data['cart'] = $this->load->controller('common/cart');
 		$data['menu'] = $this->load->controller('common/menu');
+        $data['exchange'] = $this->load->controller('api/exchange');
 
 		return $this->load->view('common/header', $data);
+
 	}
 }

@@ -128,7 +128,7 @@ class ModelLocalisationCurrency extends Model {
 		curl_setopt($curl, CURLOPT_TIMEOUT, 30);
 
 		$content = curl_exec($curl);
-		
+
 		curl_close($curl);
 
 		$line = explode("\n", trim($content));
@@ -136,15 +136,15 @@ class ModelLocalisationCurrency extends Model {
 		for ($i = 0; $i < count($line); $i = $i + 2) {
 			$currency = utf8_substr($line[$i], 4, 3);
 			$value = utf8_substr($line[$i], 11, 6);
-			
+
 			if ((float)$value < 1 && isset($line[$i + 1])) {
 				if((float)utf8_substr($line[$i + 1], 11, 6) > 0) {
 					$value = (1 / (float)utf8_substr($line[$i + 1], 11, 6));
 				} else {
 					$value = 0;
 				}
-			}	
-						
+			}
+
 			if ((float)$value) {
 				$this->db->query("UPDATE " . DB_PREFIX . "currency SET value = '" . (float)$value . "', date_modified = '" .  $this->db->escape(date('Y-m-d H:i:s')) . "' WHERE code = '" . $this->db->escape($currency) . "'");
 			}

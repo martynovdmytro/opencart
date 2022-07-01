@@ -19,6 +19,7 @@ class Currency {
 				'value'         => $result['value']
 			);
 		}
+
 	}
 
 	public function format($number, $currency, $value = '', $format = true) {
