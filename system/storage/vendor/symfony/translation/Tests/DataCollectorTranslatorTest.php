@@ -20,7 +20,7 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
     public function testCollectMessages()
     {
         $collector = $this->createCollector();
-        $collector->setFallbackLocales(array('fr', 'ru'));
+        $collector->setFallbackLocales(array('fr', 'ru-ru'));
 
         $collector->trans('foo');
         $collector->trans('bar');
@@ -58,8 +58,8 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
         );
         $expectedMessages[] = array(
               'id' => 'bar_ru',
-              'translation' => 'bar (ru)',
-              'locale' => 'ru',
+              'translation' => 'bar (ru-ru)',
+              'locale' => 'ru-ru',
               'domain' => 'messages',
               'state' => DataCollectorTranslator::MESSAGE_EQUALS_FALLBACK,
               'parameters' => array(),
@@ -67,8 +67,8 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
         );
         $expectedMessages[] = array(
               'id' => 'bar_ru',
-              'translation' => 'bar (ru)',
-              'locale' => 'ru',
+              'translation' => 'bar (ru-ru)',
+              'locale' => 'ru-ru',
               'domain' => 'messages',
               'state' => DataCollectorTranslator::MESSAGE_EQUALS_FALLBACK,
               'parameters' => array('foo' => 'bar'),
@@ -84,7 +84,7 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
         $translator->addLoader('array', new ArrayLoader());
         $translator->addResource('array', array('foo' => 'foo (en)'), 'en');
         $translator->addResource('array', array('bar' => 'bar (fr)'), 'fr');
-        $translator->addResource('array', array('bar_ru' => 'bar (ru)'), 'ru');
+        $translator->addResource('array', array('bar_ru' => 'bar (ru-ru)'), 'ru-ru');
 
         $collector = new DataCollectorTranslator($translator);
 

@@ -4,14 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller" />
+    <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view/stylesheet/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/stylesheet/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/1c/1cafa699684ec9b942158cc61a19829066cbc16ac4035f3d9b3a2651f7854ed2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/24/244ddb97d2d24bca8d0d7490d8f4e12d0f658acd5bc9e17bcf1704ac3a7f2eae.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/2e/2e81ef3318ae44d88693cde58fdc425bf65c016628f42cb3083e7c1df48987e5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/41/41b69d4b787814a881963483010bbe548bc789b5a582bf9a492d24cc7b5eee09.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/43/433f9b4da70c08b435bdeacebbe10f7b757d756a5f4df6e369e3f171a34f9ff5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/4b/4bd5896b5db781a90d0719e21125c889718369114fbfa906785cf882ea9458a5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/4c/4c0807178d3ca473530bd65c0529dc65e8377853f74de5f8bd604732215920b0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/52/522f0c9ac4479a3342cbd55b68dccf3e1514e99f2edc086e7ea93faceb5f105a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/58/586fa31ab90facce5fb26ffdf8f478537a873114fd41bfffb434675be899cb23.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/6b/6b844494fb0802785638960edaa617ab67af9cf1dc1ec55cfbc2bf561210f479.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/73/735525a6a61dfd89e29b87abbc5fecead346c9981dd902e32a73b3c6e6312517.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/7a/7a42f3a095fac1062e6cb015507d12cc457027874c92e6c62eb191744001659e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/94/9413c9b25bb261fb9d42e19437aeb12393e778c0e3295544182edc1e499524dc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/95/95ba03f5fd1e07df1de33a695153afee09ba629949b5840150bb80864d59a991.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/97/970c2af85ffc72d9c1ec696338f19651fb89a10b4bef77ce0bbc93129f03093b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/9d/9db7b0c58407d13b64f20dead8272586360a6c14ba73fdedaf0ba2c49ca1970b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/a0/a05b6efa79fcf0cbee3834fee478e0e05de387be2dad55f9469878393c6c664e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/a5/a555486d96e0371859ee717e3a8348c31305459d20c1cfe0b78c696d3481f031.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/b5/b5d7c66536b48c27105d3e9f16cb51ff33ff6aa78533a06ab58fd2a8e8d99013.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/b7/b73fd08f1f083278c14b9c562e20192442c20bee786f26353aba26cf14c5c8f9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/bb/bbc148d31a315d7b1b8843f5b40b36e805f734ee76dad80ab356e2cf7f25b82f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/bd/bd713886167242d4e383f9ca9d03a0b7eba0bba4ae1cd6b3e9addc26e1ad6590.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/c6/c6603804c6465681bbbfb34bdc8dacc32d11ff842fd1447b0cd193f9a875ad5b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/cc/cccb534eb1ea7ab4753706c4744b13564444ba4d071527672803d63d6716bb80.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/d1/d1e9830b3b66d30ea673b001c7c56717b8e87911fe9e15600007128ca8b9da1f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/d5/d56d4bcb64d417eb0771a2cd70c02d2c748e2009e89fad4b0711abe319bac0eb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/ee/ee57f197e12cf46d38f232163996a366bba4edb880a27c01edf130311ac55439.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/f3/f3f6ccdb568c08cd8fc44053fc542e1ce89f2616c804491d3e35d0d2819048cd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cache/template/fe/fe9bcebf42074aad8958195b314c6f2adcc04ff5743bd89ca43e353a2e155097.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,13 +54,21 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpDebugGeneral" ignore_connections_through_unregistered_servers="true" listening_started="true" show_user_defined_constants="false" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" zd_debug_port="10255" />
   <component name="PhpServers">
     <servers>
-      <server host="opencart.local" id="8b69b552-416f-4dcb-8e7b-9e721e0f15fd" name="opencart.local" />
+      <server host="opencart.local" id="87535c90-7068-4f21-9d8d-5a1e3bc0bd11" name="opencart.local" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/Users/froze/dev/opencart.local" />
+        </path_mappings>
+      </server>
     </servers>
   </component>
-  <component name="ProjectId" id="2AR26SfNUkfxUU7epk3apo5JdBh" />
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="127.0.0.1" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="29OSdD5qY5gDKA5f32tqQxH1ag2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,23 +84,87 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php.debug&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/language/ru-ru/catalog" />
+      <recent name="$PROJECT_DIR$/catalog/language/ru-ru/extension/module" />
+      <recent name="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module" />
+      <recent name="$PROJECT_DIR$/admin/view/template/extension/module" />
+      <recent name="$PROJECT_DIR$/catalog/language/en-gb/extension/module" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="PHPUnitRunConfigurationType" />
+        <option value="PhpBuiltInWebServerConfigurationType" />
+        <option value="PhpWebAppRunConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7dec8935-c926-4b63-b651-59936265e9a8" name="Changes" comment="" />
-      <created>1654957902168</created>
+      <changelist id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="" />
+      <created>1652982726214</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654957902168</updated>
-      <workItem from="1654957903476" duration="25000" />
-      <workItem from="1654961214772" duration="67000" />
-      <workItem from="1654966923620" duration="2600000" />
-      <workItem from="1655006222223" duration="1498000" />
+      <updated>1652982726214</updated>
+      <workItem from="1652982728630" duration="1805000" />
+      <workItem from="1653015344005" duration="130000" />
+      <workItem from="1653015499800" duration="3153000" />
+      <workItem from="1653019526669" duration="15172000" />
+      <workItem from="1653101426420" duration="891000" />
+      <workItem from="1653102323247" duration="3334000" />
+      <workItem from="1653106881850" duration="322000" />
+      <workItem from="1653107229470" duration="23278000" />
+      <workItem from="1653189033729" duration="849000" />
+      <workItem from="1653228309554" duration="1923000" />
+      <workItem from="1653230615734" duration="540000" />
+      <workItem from="1653235452056" duration="266000" />
+      <workItem from="1653372811181" duration="7845000" />
+      <workItem from="1653395990319" duration="725000" />
+      <workItem from="1653397329677" duration="12296000" />
+      <workItem from="1653450171607" duration="9000" />
+      <workItem from="1653473134129" duration="435000" />
+      <workItem from="1653476028826" duration="1404000" />
+      <workItem from="1653477660153" duration="8551000" />
+      <workItem from="1653501830212" duration="1333000" />
+      <workItem from="1653534395374" duration="9996000" />
+      <workItem from="1653555468646" duration="20717000" />
+      <workItem from="1653619740175" duration="1757000" />
+      <workItem from="1653622747038" duration="29946000" />
+      <workItem from="1653755345014" duration="785000" />
+      <workItem from="1653793487422" duration="25270000" />
+      <workItem from="1653838642662" duration="3593000" />
+      <workItem from="1653877463737" duration="26113000" />
+      <workItem from="1653970746757" duration="2638000" />
+      <workItem from="1655053476714" duration="1006000" />
+      <workItem from="1655091082525" duration="2414000" />
+      <workItem from="1656067173108" duration="266000" />
+      <workItem from="1656086275201" duration="7265000" />
+      <workItem from="1656124950415" duration="4393000" />
     </task>
+    <task id="LOCAL-00001" summary="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page">
+      <created>1653228527261</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228527261</updated>
+    </task>
+    <task id="LOCAL-00002" summary="In 33 line has been added new div container for attributes from featured.php controller">
+      <created>1653228828678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228828678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +180,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="In 62 line has been added new key =&gt; value for attributes which is going to show product attributes on the start page" />
+    <MESSAGE value="In 33 line has been added new div container for attributes from featured.php controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="In 33 line has been added new div container for attributes from featured.php controller" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

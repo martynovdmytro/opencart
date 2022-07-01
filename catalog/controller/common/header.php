@@ -45,7 +45,39 @@ class ControllerCommonHeader extends Controller {
 
 		$this->load->language('common/header');
 
-		// Wishlist
+        // Currency exchange
+        if ($this->session->data['currency'] != 'UAH') {
+            $url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json';
+
+            $ch = curl_init($url);
+
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+            $exchange = json_decode(curl_exec($ch));
+
+            if (is_array($exchange)) {
+                switch ($this->session->data['currency']) {
+                    case $this->session->data['currency'] == 'USD':
+                        $data['exchange'] = $exchange['25'];
+                        break;
+                    case $this->session->data['currency'] == 'EUR':
+                        $data['exchange'] = $exchange['32'];
+                        break;
+                    case $this->session->data['currency'] == 'MDL':
+                        $data['exchange'] = $exchange['15'];
+                        break;
+                    default:
+                        # code...
+                        break;
+                }
+
+            }
+            curl_close($ch);
+        }
+
+
+
+        // Wishlist
 		if ($this->customer->isLogged()) {
 			$this->load->model('account/wishlist');
 
@@ -55,7 +87,7 @@ class ControllerCommonHeader extends Controller {
 		}
 
 		$data['text_logged'] = sprintf($this->language->get('text_logged'), $this->url->link('account/account', '', true), $this->customer->getFirstName(), $this->url->link('account/logout', '', true));
-		
+
 		$data['home'] = $this->url->link('common/home');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', true);
 		$data['logged'] = $this->customer->isLogged();
@@ -70,7 +102,6 @@ class ControllerCommonHeader extends Controller {
 		$data['checkout'] = $this->url->link('checkout/checkout', '', true);
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
-		
 		$data['language'] = $this->load->controller('common/language');
 		$data['currency'] = $this->load->controller('common/currency');
 		$data['search'] = $this->load->controller('common/search');

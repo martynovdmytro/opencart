@@ -333,7 +333,7 @@ $_['advertise_google_languages'] = array(
     'rm' => "Romansh",
     'rn' => "Rundi",
     'ro' => "Romanian, Moldavian, Moldovan",
-    'ru' => "Russian",
+    'ru-ru' => "Russian",
     'sa' => "Sanskrit",
     'sc' => "Sardinian",
     'sd' => "Sindhi",
@@ -693,7 +693,7 @@ $_['advertise_google_targets'] = array(
     ),
     array(
         'country' => 'RU',
-        'languages' => array('ru'),
+        'languages' => array('ru-ru'),
         'currencies' => array('RUB')
     ),
     array(
@@ -748,7 +748,7 @@ $_['advertise_google_targets'] = array(
     ),
     array(
         'country' => 'UA',
-        'languages' => array('uk', 'ru'),
+        'languages' => array('uk', 'ru-ru'),
         'currencies' => array('UAH')
     ),
     array(
