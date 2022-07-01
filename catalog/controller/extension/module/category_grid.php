@@ -2,7 +2,7 @@
 class ControllerExtensionModuleCategoryGrid extends Controller{
     public function index($setting) {
 
-        $this->load->language('extension/module/category_grid');
+        $this->load->language('extension/module/category');
 
         $this->load->language('catalog/category');
 
