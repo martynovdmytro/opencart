@@ -1,6 +1,6 @@
-<h4>This is my educational practice on the Opencart CMS. There are a couple features were created by me.</h4><br />
+<h3>This is my educational practice on the Opencart CMS. There are a couple features were created by me.</h3><br />
 <p>
-1. Attributes in the bottom of the Featured section instead of Product description.<br />
+<h4>1. Attributes in the bottom of the Featured section instead of Product description.</h4>
 Modifications of /catalog/controller/extension/module/featured.php:<br />
 <ul>
   <li>In the line No 57 $attributes array receives product attributes by $product_info['product_id'] and processing with foreach</li>
@@ -15,14 +15,17 @@ There are four types of currencies: UAH, USD, EUR, MDL. UAH is a currency by def
 In case of choising any other currency the actual exchange according to the NBU displays in the header.<br />
 Product prices convert according to the chosen currency.<br />
 Created /catalog/controller/api/exchange.php:<br />
-- public function setCurrencyCache caches data received from the NBU<br />
-- public function getCurrencyCache fetchs data from cache, provides refreshing every 4 hours and set up the convertation rate<br />
+<ul>
+<li>public function setCurrencyCache caches data received from the NBU<br />
+<li>public function getCurrencyCache fetchs data from cache, provides refreshing every 4 hours and set up the convertation rate<br />
+</ul>  
 Modifications /catalog/model/localisation/currency.php:<br />
-- In the line No 37 public function refreshValue added to set the convertation rate in the database<br />
+<li>In the line No 37 public function refreshValue added to set the convertation rate in the database<br />
 Modifications of /catalog/controller/common/header.php:<br />
 - In the line No 78 $data['exchange'] receives data from /catalog/controller/api/exchange.php<br />
 Modifications /catalog/view/theme/default/template/common/header.twig:<br />
 - In the line No 46 currency exchange displays in the header<br />
+</ul>
 </p>
 
 <p>
