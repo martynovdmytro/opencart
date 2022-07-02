@@ -13,7 +13,7 @@ class ControllerExtensionModuleCategoryGrid extends Controller{
         $data['categories'] = array();
 
         if (!$setting['limit']) {
-            $setting['limit'] = 8;
+            $setting['limit'] = 6;
         }
 
         if (!empty($setting['category'])) {
@@ -24,9 +24,9 @@ class ControllerExtensionModuleCategoryGrid extends Controller{
 
                 if ($category_info) {
                     if ($category_info['image']) {
-                        $image = $this->model_tool_image->resize($category_info['image'], $setting['width'], $setting['height']);
+                        $image = $this->model_tool_image->resize($category_info['image'], 600, 450);
                     } else {
-                        $image = $this->model_tool_image->resize('placeholder.png', $setting['width'], $setting['height']);
+                        $image = $this->model_tool_image->resize('placeholder.png', 600, 450);
                     }
 
                     $data['categories'][] = array

@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="782d6f85-5526-4184-af93-1d4acbce1bc8" name="Changes" comment="In 33 line has been added new div container for attributes from featured.php controller">
+      <change afterPath="$PROJECT_DIR$/admin/controller/extension/module/category_grid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/module/category_grid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/view/template/extension/module/category_grid.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/language/en-gb/extension/module/category_grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/extension/module/featured.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/extension/module/featured.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/language/ru-ru/catalog/category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/category_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/category_grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/featured.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category_grid.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/EUR.txt" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/cache/EUR.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/MDL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/cache/MDL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/USD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/cache/USD.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/froze/dev/opencart.local/catalog/language/en-gb/extension/module",
+    "last_opened_file_path": "/Users/froze/dev/opencart.local/admin/language/en-gb/extension/module",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,11 +84,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/language/en-gb/extension/module" />
+      <recent name="$PROJECT_DIR$/admin/view/template/extension/module" />
       <recent name="$PROJECT_DIR$/catalog/language/en-gb/extension/module" />
       <recent name="$PROJECT_DIR$/admin/language/ru-ru/catalog" />
       <recent name="$PROJECT_DIR$/catalog/language/ru-ru/extension/module" />
-      <recent name="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module" />
-      <recent name="$PROJECT_DIR$/admin/view/template/extension/module" />
     </key>
   </component>
   <component name="RunDashboard">

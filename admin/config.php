@@ -8,11 +8,11 @@ define('HTTPS_SERVER', 'http://opencart.local/admin/');
 define('HTTPS_CATALOG', 'http://opencart.local/');
 
 // DIR
-define('DIR_APPLICATION', __DIR__ . '/admin/');
-define('DIR_SYSTEM', __DIR__ . '/system/');
-define('DIR_IMAGE', __DIR__ . '/image/');
-define('DIR_STORAGE', __DIR__ .'/storage/');
-define('DIR_CATALOG', __DIR__ . '/catalog/');
+define('DIR_APPLICATION', '/Users/froze/dev/opencart.local/admin/');
+define('DIR_SYSTEM', '/Users/froze/dev/opencart.local/system/');
+define('DIR_IMAGE', '/Users/froze/dev/opencart.local/image/');
+define('DIR_STORAGE', '/Users/froze/dev/opencart.local/storage/');
+define('DIR_CATALOG', '/Users/froze/dev/opencart.local/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');

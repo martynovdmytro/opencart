@@ -31,3 +31,42 @@
 2022-06-13 4:52:35 - PHP Warning:  fflush() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 55
 2022-06-13 4:52:35 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 57
 2022-06-13 4:52:35 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /Users/froze/dev/opencart.local/system/library/cache/file.php on line 59
+2022-07-02 10:03:26 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:26 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:26 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:26 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:26 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:26 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:27 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:27 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:27 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:27 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:27 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:03:27 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:04:15 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:04:15 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:04:15 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:04:15 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:04:15 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:04:15 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 46
+2022-07-02 10:06:16 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:16 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:16 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:16 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:16 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:16 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:37 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:37 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:37 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:37 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:37 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:06:37 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:07:11 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:07:11 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:07:11 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:07:11 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:07:11 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:07:11 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 47
+2022-07-02 10:09:28 - PHP Warning:  Invalid argument supplied for foreach() in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 28
+2022-07-02 10:09:29 - PHP Notice:  Undefined variable: image in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 42
+2022-07-02 10:16:14 - PHP Warning:  Invalid argument supplied for foreach() in /Users/froze/dev/opencart.local/catalog/controller/extension/module/category_grid.php on line 28
