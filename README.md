@@ -53,7 +53,7 @@ Modifications /catalog/view/theme/default/template/common/header.twig:<br />
 </p>
 
 <p>
-<h4>3. Category grid added on the Home page below of the Featured via simple module.</h4>
+<h4>3. Category grid added on the Home page below of the Featured section via simple module.</h4>
 
 Admin side:<br />
 
