@@ -31,16 +31,22 @@ Created /catalog/controller/api/exchange.php:<br />
 <ul>
   <li>public function setCurrencyCache caches data received from the NBU</li>
   <li>public function getCurrencyCache fetchs data from cache, provides refreshing every 4 hours and set up the convertation rate</li>
-</ul>  
+</ul> 
+
 Modifications /catalog/model/localisation/currency.php:<br />
+
 <ul>
   <li>In the line No 37 public function refreshValue added to set the convertation rate in the database</li>
 </ul>
+
 Modifications of /catalog/controller/common/header.php:<br />
+
 <ul>
   <li>In the line No 78 $data['exchange'] receives data from /catalog/controller/api/exchange.php</li>
-</ul>  
+</ul> 
+
 Modifications /catalog/view/theme/default/template/common/header.twig:<br />
+
 <ul>
   <li>In the line No 46 currency exchange displays in the header</li>
 </ul>
