@@ -1,6 +1,6 @@
 This is my educational practice on the Opencart CMS. There are a couple features were created by me.
 
-1. Attributes in the bottom of the Featured section instead of Product description. 
+1. Attributes in the bottom of the Featured section instead of Product description.
 Modifications of /catalog/controller/extension/module/featured.php:
 - In the line No 57 $attributes array receives product attributes by $product_info['product_id'] and processing with foreach
 - In the line No 64 $attributes array with product attributes included to the data['products'] 
