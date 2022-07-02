@@ -1,5 +1,4 @@
-<h4>This is my educational practice on the Opencart CMS. There are a couple features were created by me.</h4><br />
-
+<h4>My educational practice on the Opencart CMS. There are a couple features created by me while studiyng.</h4><br />
 <h4>1. Attributes in the bottom of the Featured section instead of Product description.</h4>
 <p>
   
