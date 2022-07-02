@@ -2,12 +2,16 @@
 
 <h4>1. Attributes in the bottom of the Featured section instead of Product description.</h4>
 <p>
+  
 Modifications of /catalog/controller/extension/module/featured.php:<br />
+  
 <ul>
   <li>In the line No 57 $attributes array receives product attributes by $product_info['product_id'] and processing with foreach</li>
   <li>In the line No 64 $attributes array with product attributes included to the data['products']</li>
 </ul>  
+
 Modifications of /catalog/view/theme/default/template/extension/module/featured.twig:<br />
+
 <ul>
   <li>In the lines No 36 - 45 loop added to display attributes in the bottom of the Featured section</li>
 </ul>  
