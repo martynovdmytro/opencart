@@ -1,19 +1,23 @@
-<h3>This is my educational practice on the Opencart CMS. There are a couple features were created by me.</h3><br />
+<h4>This is my educational practice on the Opencart CMS. There are a couple features were created by me.</h4><br />
 <p>
-<h4>1. Attributes in the bottom of the Featured section instead of Product description.</h4>
+<h5>1. Attributes in the bottom of the Featured section instead of Product description.</h5>
 Modifications of /catalog/controller/extension/module/featured.php:<br />
 <ul>
   <li>In the line No 57 $attributes array receives product attributes by $product_info['product_id'] and processing with foreach</li>
   <li>In the line No 64 $attributes array with product attributes included to the data['products']</li>
+</ul>  
 Modifications of /catalog/view/theme/default/template/extension/module/featured.twig:
+<ul>
   <li>In the lines No 36 - 45 loop added to display attributes in the bottom of the Featured section</li>
 </ul>  
 </p>
 <p>
-2. Currency exchange logic including price convertation.<br />
+<h5>2. Currency exchange logic including price convertation.</h5>
+<p>
 There are four types of currencies: UAH, USD, EUR, MDL. UAH is a currency by default.<br />
 In case of choising any other currency the actual exchange according to the NBU displays in the header.<br />
 Product prices convert according to the chosen currency.<br />
+</p>
 Created /catalog/controller/api/exchange.php:<br />
 <ul>
 <li>public function setCurrencyCache caches data received from the NBU<br />
