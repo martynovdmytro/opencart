@@ -1,4 +1,4 @@
-This is my educational practice on the Opencart CMS. There are a couple features were created by me.
+<p>This is my educational practice on the Opencart CMS. There are a couple features were created by me.</p>
 
 1. Attributes in the bottom of the Featured section instead of Product description.
 Modifications of /catalog/controller/extension/module/featured.php:
