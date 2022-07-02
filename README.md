@@ -1,11 +1,14 @@
-<p>This is my educational practice on the Opencart CMS. There are a couple features were created by me.</p><br />
-
+<h4>This is my educational practice on the Opencart CMS. There are a couple features were created by me.</h4><br />
+<p>
 1. Attributes in the bottom of the Featured section instead of Product description.<br />
 Modifications of /catalog/controller/extension/module/featured.php:<br />
-- In the line No 57 $attributes array receives product attributes by $product_info['product_id'] and processing with foreach<br />
-- In the line No 64 $attributes array with product attributes included to the data['products']<br />
-Modifications of /catalog/view/theme/default/template/extension/module/featured.twig:<br />
-- In the lines No 36 - 45 loop added to display attributes in the bottom of the Featured section<br />
+<ul>
+  <li>In the line No 57 $attributes array receives product attributes by $product_info['product_id'] and processing with foreach</li>
+  <li>In the line No 64 $attributes array with product attributes included to the data['products']</li>
+  <li>Modifications of /catalog/view/theme/default/template/extension/module/featured.twig:</li>
+  <li>In the lines No 36 - 45 loop added to display attributes in the bottom of the Featured section</li>
+</ul>  
+</p>
 <p>
 2. Currency exchange logic including price convertation.<br />
 There are four types of currencies: UAH, USD, EUR, MDL. UAH is a currency by default.<br />
