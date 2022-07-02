@@ -1,5 +1,6 @@
 <?php
 class ControllerApiExchange extends Controller {
+
     public function index(){
 
         $root = $_SERVER['DOCUMENT_ROOT'] . '/system/storage/cache/'; // currency cache file
@@ -18,6 +19,7 @@ class ControllerApiExchange extends Controller {
 
     public function getCurrencyCache($root)
     {
+
         $this->load->model('localisation/currency');
 
         if (file_exists($root . '/' . $this->session->data['currency'] . '.' . 'txt')) {
