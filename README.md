@@ -53,13 +53,21 @@ Modifications /catalog/view/theme/default/template/common/header.twig:<br />
 </p>
 
 <p>
-3. Category grid added on the Home page below of the Featured via simple module.<br />
+<h4>3. Category grid added on the Home page below of the Featured via simple module.</h4>
+
 Admin side:<br />
-- /admin/controller/extension/module/category_grid.php<br />
-- /admin/view/template/extension/module/category_grid.twig<br />
-- /admin/language/en-gb/extension/module/category_grid.php<br />
+
+<ul>
+  <li>/admin/controller/extension/module/category_grid.php<br />
+  <li>/admin/view/template/extension/module/category_grid.twig<br />
+  <li>/admin/language/en-gb/extension/module/category_grid.php<br />
+</ul>
+
 Catalog side:<br />
-- /catalog/controller/extension/module/category_grid.php<br />
-- /catalog/view/theme/default/template/extension/module/category_grid.twig<br />
-- /catalog/language/en-gb/extension/module/category_grid.php<br />
+
+<ul>
+  <li>/catalog/controller/extension/module/category_grid.php</li>
+  <li>/catalog/view/theme/default/template/extension/module/category_grid.twig</li>
+  <li>/catalog/language/en-gb/extension/module/category_grid.php</li>
+</ul?
 </p>
